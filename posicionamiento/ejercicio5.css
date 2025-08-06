@@ -1,0 +1,35 @@
+.caja_horizontal {
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+}
+
+.caja_vertical {
+    width: 200px;
+    height: 80%;
+}
+
+.caja_horizontal.one {
+    background-color: yellow;
+    position: absolute;
+    bottom: 20%;
+}
+
+.caja_horizontal.two {
+    background-color: red;
+    position: absolute;
+    top: 20%;
+}
+
+
+.caja_vertical.three {
+    background-color: blue;
+    position: absolute;
+    left: 20%;
+}
+
+.caja_vertical.four {
+    background-color: green;
+    position: absolute;
+    right: 20%;
+}

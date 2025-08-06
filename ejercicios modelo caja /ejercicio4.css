@@ -1,0 +1,28 @@
+.caja1 {
+    border-top: 5px dotted green;
+    border-right: 5px dashed orange;
+    border-bottom: 5px dotted pink;
+    border-left: 5px dashed blue;
+    padding: 10px;
+    text-align: center;
+}
+
+.caja2 {
+    border-top: 5px solid cyan;
+    border-right: 10px solid black;
+    border-bottom: 5px solid pink;
+    border-left: 10px solid black;
+    padding: 15px;
+    text-align: center;
+}
+div > div.caja1 {
+    margin-bottom: 20px;
+}
+
+.borde1 {
+    border: 5px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+

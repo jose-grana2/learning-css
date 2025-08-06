@@ -1,0 +1,17 @@
+.caja1 {
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: brown;
+}
+
+div {
+    position: relative ;
+}
+
+p:first-of-type {
+    position: absolute;
+    top: 103px;
+    left : 103px;
+}
