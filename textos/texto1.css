@@ -1,0 +1,45 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+.articulo h2 {
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2;
+}
+
+.artiulo a {
+    color: #CC6600;
+}
+
+#menu a {
+    color: #ffff;
+    font-size: 1.3em;
+}
+
+#menu {
+    background-color: blue;
+}
+
+#lateral {
+    font-size: 0.9em;
+
+}
+
+.fecha {
+  color: #003366;
+}
+
+#publicidad {
+    color: #555;
+}
+
+#publicidad a {
+    color: #CC6600;
+}
