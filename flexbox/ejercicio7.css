@@ -1,0 +1,49 @@
+header {
+    background-color: #333333;
+    display: flex;
+    justify-content: end;
+}
+
+header h1 {
+    color: #FFFFFF;
+    height: 40px;
+    padding-right: 20px;
+}
+
+.viajes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.viajes h2 {
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+.viajes p {
+    text-align: justify;
+}
+
+.viajes img{
+    width: 100%;
+    height: 200px;
+}
+
+.viaje1 {
+    background-color: darkcyan;
+}
+
+.viaje2 {
+    background-color: lightgreen;
+}
+
+.viaje3 {
+    background-color: lightskyblue;
+}
+
+.viaje1 , .viaje2, .viaje3 {
+    width: 35%;
+    height: 500px;
+    padding: 10px;
+}
