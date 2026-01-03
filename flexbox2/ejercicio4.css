@@ -1,0 +1,54 @@
+.maindiv {
+    border: solid 3px red;
+    display: flex;
+}
+
+.maindiv > div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.item1 {
+    background-color: #58B99D;
+}
+
+.item2 {
+    background-color: #5296D5;
+}
+
+.item3 {
+    background-color: #925CB1;
+}
+
+.item4 {
+    background-color: #38485C;
+}
+
+.item5 {
+    background-color: #EAC645;
+    order: -1;
+}
+
+.item6 {
+    background-color: #D8833B;
+    order: 99;
+
+}
+
+.item7 {
+    background-color: #D65745;
+}
+
+.item8 {
+    background-color: #BEC3C7;
+}
+
+.item9 {
+    background-color: #65C97A;
+}
+
+.item10 {
+    background-color: #4A9E86;
+}
