@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+    grid-template-areas: ". celda1"
+                         "celda2 celda3"
+                         "celda4 celda4";
+    
+    grid-template-rows: 50px 75px 50px;
+    grid-template-columns: 100px 250px; 
+    gap: 1px;
+}
+
+.item {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.celda1 { 
+    grid-area: celda1;
+    background-color: brown;
+}
+.celda2 { 
+    grid-area: celda2;
+
+}
+.celda3 { 
+    grid-area: celda3;
+    justify-content: start;
+}
+.celda4 { 
+    grid-area: celda4;
+    background-color: grey;
+}
