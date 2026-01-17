@@ -15,7 +15,7 @@
 }
 
 .item {
-    background-color: rgb(255, 191, 0);
+    background-color: #f6c844;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -29,34 +29,34 @@
 .celda5 { grid-area: celda5; }
 .celda6 { 
     grid-area: celda6; 
-    background-color: rgba(0, 81, 255, 0.756);
+    background-color: #6f94e6;
 }
 .celda7 { grid-area: celda7; }
 .celda8 { 
     grid-area: celda8; 
-    background-color: rgb(255, 77, 0);
+    background-color: #ed6d52;
 }
 .celda9 { 
     grid-area: celda9; 
-    background-color: greenyellow;
+    background-color: #aff8a2;
 }
 .celda10 { grid-area: celda10; }
 .celda11 { grid-area: celda11; }
 .celda12 { 
     grid-area: celda12; 
-    background-color: rgba(0, 81, 255, 0.756);
+    background-color: #6f94e6;
 }
 .celda13 { grid-area: celda13; }
 .celda14 { grid-area: celda14; }
 .celda15 { grid-area: celda15; }
 .celda16 { 
     grid-area: celda16; 
-    background-color: rgb(255, 77, 0);
+    background-color: #ed6d52;
 } 
 .celda17 { grid-area: celda17; }
 .celda18 { 
     grid-area: celda18; 
-    background-color: lightgreen;
+    background-color: #a5cc4f;
 }
 .celda19 { grid-area: celda19; }
 .celda20 { grid-area: celda20; }
@@ -65,24 +65,24 @@
 .celda23 { grid-area: celda23; }
 .celda24 { 
     grid-area: celda24; 
-    background-color: rgb(255, 77, 0);
+    background-color: #ed6d52;
 }
 .celda25 { grid-area: celda25; }
 .celda26 { grid-area: celda26; }
 .celda27 { 
     grid-area: celda27; 
-    background-color: greenyellow;
+    background-color: #aff8a2;
 }
 .celda28 { grid-area: celda28; }
 .celda29 { grid-area: celda29; }
 .celda30 { 
     grid-area: celda30;
-    background-color: rgba(0, 81, 255, 0.756);
+    background-color: #6f94e6;
 }
 .celda31 { grid-area: celda31; }
 .celda32 { 
     grid-area: celda32; 
-    background-color: rgb(255, 77, 0);
+    background-color: #ed6d52;
 }
 .celda33 { grid-area: celda33; }
 .celda34 { grid-area: celda34; }
