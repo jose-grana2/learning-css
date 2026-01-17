@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    grid-template-rows: repeat(3, 75px);
+    grid-template-columns: repeat(2, 125px);
+    gap: 1px;
+}
+
+.item {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.celda4 { order: 1; }
+.celda2 { order: 2; }
+.celda5 { order: 3; }
+.celda3 { order: 4; }
+.celda6 { order: 5; }
