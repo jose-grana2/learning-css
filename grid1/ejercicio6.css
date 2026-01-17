@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-areas: "celda1 celda1 celda1 celda2 celda2"
+                         "celda3 celda3 celda4 celda4 celda4"
+                         "celda5 celda5 celda5 celda5 celda5";
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: repeat(5, 150px);
+    gap: 1px;
+}
+
+.item {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celda1 { grid-area: celda1;}
+.celda2 { grid-area: celda2;}
+.celda3 { grid-area: celda3;}
+.celda4 { grid-area: celda4;}
+.celda5 { grid-area: celda5;}
+.celda6 { grid-area: celda6;}
