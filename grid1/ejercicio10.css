@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    grid-template-areas: "celda1 celda2"
+                         "celda3 celda4"
+                         "celda5 celda4";
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 50px repeat(2, 100px);
+    gap: 1px;
+}
+
+.item {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.celda1 {grid-area: celda1;}
+.celda2 {grid-area: celda2;}
+.celda3 {grid-area: celda3;}
+.celda5 {grid-area: celda5;}
+
+.celda4 {
+    grid-area: celda4;
+    display: grid;
+    grid-template-areas: "celda4-1 celda4-1"
+                         "celda4-2 celda4-3"
+                         "celda4-4 celda4-5";
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(3. 100px);
+    gap: 1px;
+}
+
+.item4 {
+    background-color: rgb(141, 54, 141);
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.celda4-1 {grid-area: celda4-1;}
+.celda4-2 {grid-area: celda4-2;}
+.celda4-3 {grid-area: celda4-3;}
+.celda4-4 {grid-area: celda4-4;}
+.celda4-5 {grid-area: celda4-5;}
