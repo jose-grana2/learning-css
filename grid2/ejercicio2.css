@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to right, #e33f78, #8445c6);
+    padding: 30px;
+}
+.header {
+    display: grid;
+    font-weight: bolder;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 200px 200px; 
+    gap: 10px;
+}
+
+.box-text-img {
+    grid-row: span 2;
+    background-image: url(./img/taco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    padding-left: 10%;
+}
+
+.box-text-img h1 {
+    color: black;
+    background-color: #ffc600;
+    font-size: 30px;
+    align-self: end;
+}
+.box-text-img p {
+    background-color: #ffc600;
+    font-size: 20px;
+    align-self: start;
+}
+
+.box-text-img h1,
+.box-text-img p {
+    display: inline-block;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+.box-yellow {
+    background-color: #ffc600;
+    text-align: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    padding-top: 40px;
+}
+
+.box-yellow p:nth-child(1) {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.box-yellow p:nth-child(2) {
+    margin-top: 0;
+}
