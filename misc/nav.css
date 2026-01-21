@@ -1,0 +1,34 @@
+.menu  {
+  display: inline-block;
+  background-color: #1E8BD8;
+  color: white
+    
+}
+
+.menu ul {
+  margin: 0;
+  padding: 15px;
+}
+
+.menu ul li {
+  text-align: center;
+  display: inline;
+  padding: 15px;
+}
+
+
+.menu ul li a {
+  text-decoration: none;
+}
+.menu ul li a:link {
+  color: white
+}
+
+.menu ul li a:visited {
+  color: white;
+}
+
+.menu ul li:hover {
+  background-color: black;
+}
+
