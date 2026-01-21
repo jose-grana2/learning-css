@@ -1,34 +1,47 @@
-.menu  {
-  display: inline-block;
+.menu {
   background-color: #1E8BD8;
-  color: white
-    
 }
 
-.menu ul {
+.main-menu {
+  display: flex;
   margin: 0;
   padding: 15px;
+  list-style: none;
 }
 
-.menu ul li {
-  text-align: center;
-  display: inline;
-  padding: 15px;
+.main-menu > li {
+  position: relative;
+  padding: 2%;
 }
 
-
-.menu ul li a {
+.menu a {
   text-decoration: none;
-}
-.menu ul li a:link {
-  color: white
-}
-
-.menu ul li a:visited {
   color: white;
 }
 
-.menu ul li:hover {
+.main-menu > li:hover {
   background-color: black;
 }
 
+.our-services {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #1E8BD8;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.submenu:hover .our-services {
+  display: block;
+}
+
+.our-services li {
+  padding: 2vw;
+}
+
+.our-services li:hover {
+  background-color: black;
+}
